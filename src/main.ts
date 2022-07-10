@@ -79,7 +79,7 @@ function mouseDownActor(e: MouseEvent) {
     state.yOffset = e.clientY - +actor.style.top.slice(0, -2)
   }
 }
-function mouseUpWindow(e: MouseEvent) {
+function mouseUpWindow() {
   state.selected = 0
 }
 function mouseMoveWindow(e: MouseEvent) {
